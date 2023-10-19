@@ -1,0 +1,10 @@
+{
+  "name": "ts-data-structures",
+  "version": "1.0.0",
+  "description": "Data Structures in TypeScript",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "vitest": "^0.34.6"
+  }
+}
