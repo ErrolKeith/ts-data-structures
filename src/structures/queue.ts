@@ -4,13 +4,13 @@ interface Queue<T> {
   size(): number;
 }
 
-type Patient = {
+export type Patient = {
   name: string;
   age: number;
 };
 
-class WaitingRoom implements Queue<Patient> {
-  patients: Patient[] = [];
+export class WaitingRoom implements Queue<Patient> {
+  private patients: Patient[] = [];
   public enqueue(patient: Patient) {
     this.patients.push(patient);
   }
